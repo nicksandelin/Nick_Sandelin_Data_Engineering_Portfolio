@@ -1,0 +1,11 @@
+sale_id,customer_name,product,quantity,unit_price,total_amount,sale_date,region,salesperson
+S-20001,Lambda Inc,Widget Pro 500,25,29.99,749.75,2026-02-23,Southwest,Jane Smith
+S-20002,Mu Retail,SuperSensor X,3,499.95,1499.85,2026-02-24,Northwest,Carlos Nguyen
+S-20003,Nu Wholesale,MegaMount V2,40,59.50,2380.00,2026-02-25,Northeast,Sarah Lee
+S-20004,Xi Distributors,Gadget Elite,7,149.00,1043.00,2026-02-26,Southeast,Tom Rivera
+S-20005,Omicron Ltd,Widget Pro 500,60,29.99,1799.40,2026-02-27,Midwest,Jane Smith
+S-20006,Pi Ventures,SuperSensor X,5,499.95,2499.75,2026-02-28,West,Carlos Nguyen
+S-20007,Rho Trading,MegaMount V2,18,59.50,1071.00,2026-03-01,Southwest,Sarah Lee
+S-20008,Sigma Corp,Gadget Elite,22,149.00,3278.00,2026-03-01,Northwest,Tom Rivera
+S-20009,Tau Enterprises,Widget Pro 500,35,29.99,1049.65,2026-03-02,Northeast,Jane Smith
+S-20010,Upsilon Tech,SuperSensor X,4,499.95,1999.80,2026-03-02,Southeast,Carlos Nguyen
