@@ -1,0 +1,16 @@
+Summary:
+  This project aimed to create workflow tasks for employees from caregiver all the way to executive level roles. 
+  Resulted in huge boost of compliance rates across company metrics.
+  All procedures ran daily via SSMS Server Agent.
+
+Work Flow Task Trigger Automation:
+  1. wftask-triggers.sql: Database triggers to create a log in wftlogtable of tasks needing creation covering many important KPIs
+  2. wftask-manager.sql: Using log, cursor through each issue, creating the task via API communication, updating log to reflect submission success or fail, waiting 5 seconds between submissions per API instruction.
+  3. wftask-fail-summary.sql: a failsafe to notify Tech team if any tasks fail creation process
+
+HCA Quarterly Visit Compliance Automation:
+  1. HCA-task-check.sql: A procedure whose output consists of a table of caregivers/coordinators who are missing quarterly HCA visit workflow tasks, or for those tasks incorrectly entered.
+  2. hca_task_generator.sql: Uses the HCA-task-check.sql proc to identify which tasks need creation or recreation.
+          -  Identifies the appropriate details for the task to ensure correct due date and schedule visit type based on certification of patient, along with cert start and end months for which month each visit must be in.
+          -  Deletes incorrect tasks and uploads all missing items, scheduled to run each month to ensure 100% compliance with state regulations.
+  
