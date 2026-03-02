@@ -1,1 +1,0 @@
-Python ETL project showing pipeline of sales data from csv file source folder on local machine to a personal dolt SQL server sales table, with logging and file archiving post-processing.
