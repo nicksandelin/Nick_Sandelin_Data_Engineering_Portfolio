@@ -1,0 +1,11 @@
+sale_id,customer_name,product,quantity,unit_price,total_amount,sale_date,region,salesperson
+S-10001,Acme Corp,Widget Pro 500,10,29.99,299.90,2026-02-01,Northeast,Jane Smith
+S-10002,Beta LLC,Gadget Elite,5,149.00,745.00,2026-02-03,Southeast,Tom Rivera
+S-10003,Gamma Industries,Widget Pro 500,20,29.99,599.80,2026-02-05,Midwest,Jane Smith
+S-10004,Delta Co,SuperSensor X,2,499.95,999.90,2026-02-07,West,Carlos Nguyen
+S-10005,Epsilon Ltd,Gadget Elite,8,149.00,1192.00,2026-02-10,Southwest,Sarah Lee
+S-10006,Zeta Partners,MegaMount V2,15,59.50,892.50,2026-02-12,Northwest,Tom Rivera
+S-10007,Eta Solutions,Widget Pro 500,50,29.99,1499.50,2026-02-14,Northeast,Jane Smith
+S-10008,Theta Works,SuperSensor X,1,499.95,499.95,2026-02-17,Southeast,Carlos Nguyen
+S-10009,Iota Systems,MegaMount V2,30,59.50,1785.00,2026-02-20,Midwest,Sarah Lee
+S-10010,Kappa Group,Gadget Elite,12,149.00,1788.00,2026-02-22,West,Tom Rivera
